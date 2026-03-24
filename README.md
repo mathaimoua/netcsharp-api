@@ -1,5 +1,5 @@
-<!--
--- Simple Table creation
+# Simple Table creation
+-- Create Table
 CREATE TABLE person (
   id SERIAL PRIMARY KEY,
   first_name VARCHAR(100) NOT NULL,
@@ -14,4 +14,3 @@ INSERT INTO person (first_name, last_name, email, phone) VALUES
   ('Matt', 'Moua', 'matt@example.com', '651-555-0101'),
   ('Jane', 'Doe', 'jane@example.com', '612-555-0182'),
   ('John', 'Smith', 'john@example.com', '763-555-0144'); 
-  -->
