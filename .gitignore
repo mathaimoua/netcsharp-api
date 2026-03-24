@@ -1,0 +1,12 @@
+# Build output
+bin/
+obj/
+
+# Secrets
+appsettings.Development.json
+
+# OS files
+.DS_Store
+
+# VS Code
+.vscode/
